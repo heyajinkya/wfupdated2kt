@@ -20,10 +20,9 @@ import {
 type StudentFormValues = {
   firstName: string;
   lastName: string;
-  email: string;
-  phone: string;
-  course: string;
+  dob: string; // yyyy-mm-dd (HTML date input)
 };
+
 
 
 type StudentDetailsFormProps = {

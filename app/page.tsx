@@ -18,11 +18,13 @@ import {
   Edit3,
 } from "lucide-react";
 type StudentFormValues = {
-  fullName: string;
+  firstName: string;
+  lastName: string;
   email: string;
   phone: string;
   course: string;
 };
+
 
 type StudentDetailsFormProps = {
   defaultValues: StudentFormValues;
